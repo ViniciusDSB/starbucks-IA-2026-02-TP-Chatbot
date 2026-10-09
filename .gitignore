@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+# cache de modelos pré-treinados (sentence-transformers / Hugging Face)
+.cache/
+# auxiliares do LaTeX
+relatorio/*.aux
+relatorio/*.log
+relatorio/*.out
+relatorio/*.synctex.gz
+relatorio/*.bbl
+relatorio/*.blg
+.vectordb/

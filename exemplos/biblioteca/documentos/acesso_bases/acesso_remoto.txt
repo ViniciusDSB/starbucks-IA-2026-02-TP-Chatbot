@@ -1,0 +1,15 @@
+ACESSO A PERIÓDICOS, E-BOOKS E BASES DIGITAIS
+
+Dentro do campus, conectado à rede da universidade, o acesso ao Portal de Periódicos CAPES (incluindo IEEE Xplore, ACM Digital Library, ScienceDirect, SpringerLink, Scopus e Web of Science) é automático.
+
+Fora do campus, use o "Acesso CAFe": no Portal de Periódicos CAPES, clique em "Meu espaço" > "Acesso CAFe", escolha "Universidade Exemplo" na lista de instituições e entre com o mesmo login e senha do sistema acadêmico. Não é necessário VPN.
+
+Se o artigo continuar pedindo pagamento, verifique se você entrou pelo Portal CAPES (e não direto pelo site da editora) e se a revista faz parte do acervo assinado. Quando não fizer, peça o artigo pela comutação bibliográfica, no balcão ou pelo e-mail da biblioteca; o prazo é de até 10 dias úteis.
+
+E-BOOKS: a Biblioteca Virtual tem mais de 12 mil livros eletrônicos em português, incluindo a bibliografia básica das disciplinas. Acesse pelo menu "Acervo digital" do aplicativo da universidade. A leitura é online, no navegador ou no celular, sem limite de usuários simultâneos.
+
+TESES, DISSERTAÇÕES E TCCs: ficam no Repositório Institucional, com acesso aberto a qualquer pessoa.
+
+NORMAS ABNT: a coleção completa de normas técnicas está disponível pelo sistema Target, acessível pelo menu "Acervo digital", apenas para usuários com vínculo.
+
+TREINAMENTOS: a biblioteca oferece oficinas mensais de uso das bases de dados. As inscrições são feitas pelo site, em "Serviços" > "Capacitação".

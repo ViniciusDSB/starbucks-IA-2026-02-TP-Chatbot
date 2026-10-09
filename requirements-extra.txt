@@ -1,0 +1,9 @@
+# Opcional: embeddings pré-treinados (chatbot.representacoes.EmbeddingsSentenca).
+# Instala o PyTorch (~1-2 GB). No Colab já vem quase tudo instalado.
+#
+#   pip install -r requirements-extra.txt
+#
+# Se o grupo usar embeddings no modelo FINAL, copie esta linha para o
+# requirements.txt - senão a avaliação automática não consegue carregar o modelo.
+
+sentence-transformers>=3.0

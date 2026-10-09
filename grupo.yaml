@@ -1,0 +1,95 @@
+# =============================================================================
+#  CONFIGURAÇÃO DO GRUPO - preencha todos os campos marcados com TODO.
+#  Este arquivo é lido pelo código base, pelo notebook e pelo script de
+#  avaliação. Mantenha a estrutura (nomes das chaves) exatamente como está.
+#  Veja um exemplo completo em exemplos/biblioteca/grupo.yaml.
+# =============================================================================
+
+grupo:
+  nome: "TODO: nome do grupo (ex.: Grupo 3)"
+  integrantes:          # 3 a 4 integrantes
+    - nome: "TODO"
+      rga: "TODO"
+    - nome: "TODO"
+      rga: "TODO"
+    - nome: "TODO"
+      rga: "TODO"
+
+tema:
+  nome: "TODO: tema validado com o professor"
+  descricao: >
+    TODO: uma ou duas frases dizendo o que o bot faz e para quem.
+
+dados:                  # caminhos relativos a este arquivo - não altere
+  treino: dados/treino.csv
+  teste: dados/teste.csv
+
+modelos:                # caminhos relativos a este arquivo - não altere
+  escopo: modelos/escopo.joblib
+  tema: modelos/tema.joblib
+  # carregador: "chatbot.meu_modulo:carregar"   # opcional; ver chatbot/modelos.py
+
+# LLM que REDIGE as respostas do bot (via OpenRouter, com a chave do grupo).
+# Os classificadores decidem a ROTA; o LLM só escreve o texto da resposta.
+llm:
+  modelo: "openai/gpt-6-luna"   # ou o modelo indicado pelo professor
+  temperatura: 0.3                       # 0 = respostas mais estáveis; 1 = mais variadas
+  max_tokens: 300
+  usar_em: [intencoes, chitchat]         # nós em que o LLM redige a resposta
+  persona: >
+    TODO: quem é o bot e como ele fala. Ex.: "Você é o Rex, assistente virtual do
+    Restaurante Universitário. Seja cordial, simples e direto."
+  contato: "TODO: para onde encaminhar o que o bot não sabe (setor, e-mail...)"
+  max_frases: 3
+  turnos_historico: 3
+
+# Base de conhecimento (RAG). Coloque os documentos oficiais do tema em
+# documentos/ (uma subpasta por intenção + geral/). O índice vetorial é criado
+# automaticamente em .vectordb/ na primeira conversa com o LLM.
+conhecimento:
+  pasta: documentos
+  representacao: tfidf        # tfidf (padrão) ou embeddings
+  tamanho_trecho: 700
+  k: 4
+  similaridade_minima: 0.05
+
+roteamento:
+  # Abaixo desta confiança no tema, o bot pede esclarecimento em vez de responder.
+  # 0 desliga o recurso. Escolha o valor com base em dados e justifique no relatório.
+  limiar_tema: 0.0
+
+# De 5 a 10 intenções. O nome (chave) deve ter só letras minúsculas sem acento,
+# dígitos e "_". "descricao" aparece nas mensagens do bot ("Posso ajudar com: ...").
+intencoes:
+  TODO_intencao_1:
+    descricao: "TODO"
+    resposta: >
+      TODO: resposta fixa curta (usada sem LLM e na avaliação automática). Com o
+      LLM ligado, o bot responde a partir dos documentos da pasta documentos/.
+  TODO_intencao_2:
+    descricao: "TODO"
+    resposta: >
+      TODO
+  TODO_intencao_3:
+    descricao: "TODO"
+    resposta: >
+      TODO
+  TODO_intencao_4:
+    descricao: "TODO"
+    resposta: >
+      TODO
+  TODO_intencao_5:
+    descricao: "TODO"
+    resposta: >
+      TODO
+
+# Respostas dos nós que não são intenções. {assuntos} vira a lista de descrições
+# das intenções; {opcao1}/{opcao2}, as duas intenções mais prováveis.
+respostas:
+  chitchat:
+    saudacao: "Olá! Como posso ajudar?"
+    agradecimento: "Por nada!"
+    despedida: "Até logo!"
+    padrao: "Sou um assistente automático e posso ajudar com: {assuntos}."
+  fora_dominio: "Desculpe, não sei responder sobre isso. Posso ajudar com: {assuntos}."
+  esclarecer: "Não tenho certeza se entendi. Sua dúvida é sobre {opcao1} ou sobre {opcao2}?"

@@ -1,0 +1,329 @@
+texto,intencao,origem
+como faço para pegar um livro emprestado?,emprestimo,llm
+quantos livros posso levar de uma vez?,emprestimo,llm
+qual o prazo de empréstimo para alunos de graduação?,emprestimo,llm
+posso levar livro pra casa?,emprestimo,llm
+preciso da carteirinha para emprestar livro?,emprestimo,llm
+quero pegar emprestado o livro de cálculo,emprestimo,llm
+quantos dias fico com o livro?,emprestimo,llm
+como funciona o empréstimo na biblioteca,emprestimo,llm
+aluno de pós pode pegar mais livros que graduação?,emprestimo,llm
+dá pra emprestar livro sem estar matriculado?,emprestimo,llm
+qual o limite de exemplares por usuário,emprestimo,llm
+consigo pegar livro de outro campus?,emprestimo,llm
+emprestimo de livros,emprestimo,llm
+como eu pego um livro,emprestimo,llm
+o livro de referência pode sair da biblioteca?,emprestimo,llm
+quero levar um livro pra estudar no fim de semana,emprestimo,llm
+o que preciso apresentar no balcão para retirar um livro?,emprestimo,llm
+posso pegar livro no nome de um colega?,emprestimo,llm
+como reservo um livro que está emprestado com outra pessoa?,emprestimo,llm
+tem como entrar na fila de espera de um livro?,emprestimo,llm
+quanto tempo posso ficar com um livro da biblioteca,emprestimo,llm
+professor tem prazo diferente de empréstimo?,emprestimo,llm
+vcs emprestam notebook ou só livro?,emprestimo,llm
+qro pegar um livro emprestado como faz,emprestimo,llm
+como funciona a reserva de livro pelo sistema?,emprestimo,llm
+posso emprestar dvd ou mapa?,emprestimo,llm
+o livro que eu quero está disponível para empréstimo?,emprestimo,llm
+como sei se o livro está emprestado ou na estante?,emprestimo,llm
+calouro já pode pegar livro?,emprestimo,llm
+quais documentos preciso pra fazer cadastro e pegar livros,emprestimo,llm
+quero devolver um livro em outro campus pode?,emprestimo,llm
+onde eu devolvo o livro quando a biblioteca está fechada?,emprestimo,llm
+tem limite de livros por área?,emprestimo,llm
+posso pegar dois exemplares do mesmo livro?,emprestimo,llm
+o empréstimo é feito no balcão ou no totem?,emprestimo,llm
+como renovo meu empréstimo?,renovacao,llm
+posso renovar o livro pela internet?,renovacao,llm
+quantas vezes posso renovar o mesmo livro?,renovacao,llm
+quero renovar meus livros,renovacao,llm
+dá pra renovar pelo celular?,renovacao,llm
+renovar livro,renovacao,llm
+o prazo do livro vence amanhã e preciso de mais tempo,renovacao,llm
+consigo prorrogar a data de devolução?,renovacao,llm
+como estendo o prazo do meu livro,renovacao,llm
+o sistema não deixa eu renovar o que faço,renovacao,llm
+renovação online não está funcionando,renovacao,llm
+preciso ir até a biblioteca para renovar?,renovacao,llm
+posso renovar um livro que está reservado por outra pessoa?,renovacao,llm
+esqueci de renovar ontem ainda dá?,renovacao,llm
+onde fica a opção de renovar no site?,renovacao,llm
+renovaçao de emprestimo como faz,renovacao,llm
+quero mais uma semana com o livro de física,renovacao,llm
+tem limite de renovações?,renovacao,llm
+dá pra renovar todos os livros de uma vez?,renovacao,llm
+renovo pelo aplicativo ou pelo sistema acadêmico?,renovacao,llm
+o botão de renovar sumiu,renovacao,llm
+qual o link para renovar empréstimo,renovacao,llm
+renova pra mim o livro de algoritmos,renovacao,llm
+quero adiar a devolução do livro,renovacao,llm
+como faço pra não ter que devolver o livro agora,renovacao,llm
+preciso renovar mas estou viajando,renovacao,llm
+a renovação é automática?,renovacao,llm
+quando renovo o prazo conta a partir de quando?,renovacao,llm
+renovei e a data não mudou,renovacao,llm
+pode renovar por telefone?,renovacao,llm
+quanto custa a multa por atraso?,multa,llm
+devolvi o livro atrasado e agora?,multa,llm
+estou com multa na biblioteca como pago?,multa,llm
+qual o valor da multa por dia de atraso,multa,llm
+fiquei suspenso da biblioteca por quanto tempo?,multa,llm
+meu cadastro está bloqueado por causa de atraso,multa,llm
+atrasei a devolução 3 dias o que acontece?,multa,llm
+tem multa se eu entregar o livro depois do prazo?,multa,llm
+como funciona a suspensão por atraso,multa,llm
+perdi o livro da biblioteca e agora?,multa,llm
+danifiquei um livro emprestado o que faço,multa,llm
+a multa é em dinheiro ou dias de suspensão?,multa,llm
+estou devendo na biblioteca isso impede minha formatura?,multa,llm
+preciso de nada consta da biblioteca mas tenho pendência,multa,llm
+como tiro a pendência da biblioteca,multa,llm
+paguei a multa e continuo bloqueado,multa,llm
+derrubei café no livro vou ter que pagar?,multa,llm
+quanto tempo fico sem poder pegar livro se atrasar?,multa,llm
+atraso na devolução gera multa?,multa,llm
+o livro sumiu preciso comprar outro igual?,multa,llm
+minha suspensão termina quando?,multa,llm
+posso negociar a multa,multa,llm
+fui penalizado por atraso mas devolvi no prazo,multa,llm
+multa biblioteca,multa,llm
+to bloqueado na biblioteca,multa,llm
+o que acontece se eu não devolver o livro,multa,llm
+pendência na biblioteca impede rematrícula?,multa,llm
+esqueci de devolver o livro faz um mês,multa,llm
+posso pagar a multa com pix?,multa,llm
+a multa dobra no fim de semana?,multa,llm
+que horas a biblioteca abre?,horario,llm
+qual o horário de funcionamento da biblioteca?,horario,llm
+a biblioteca abre aos sábados?,horario,llm
+até que horas fica aberta hoje?,horario,llm
+a biblioteca funciona nas férias?,horario,llm
+vai abrir no feriado?,horario,llm
+horario da biblioteca,horario,llm
+que horas fecha a biblioteca central,horario,llm
+a biblioteca abre domingo?,horario,llm
+qual o horário do balcão de empréstimo?,horario,llm
+a biblioteca está aberta agora?,horario,llm
+funciona de madrugada em época de prova?,horario,llm
+qual o horário de atendimento no recesso?,horario,llm
+a biblioteca do campus fecha pro almoço?,horario,llm
+amanhã tem expediente na biblioteca?,horario,llm
+horário de funcionamento durante a greve,horario,llm
+posso ir à biblioteca à noite?,horario,llm
+até que horas posso estudar lá?,horario,llm
+a biblioteca abre cedo?,horario,llm
+que dia a biblioteca não abre,horario,llm
+q horas abre a bibli,horario,llm
+o horário muda nas férias de julho?,horario,llm
+biblioteca vai funcionar no carnaval?,horario,llm
+qual o horário da biblioteca setorial?,horario,llm
+a biblioteca abre no sábado de manhã?,horario,llm
+fecha mais cedo na sexta?,horario,llm
+quando a biblioteca reabre depois da reforma?,horario,llm
+qual o horário de verão da biblioteca,horario,llm
+que horas para de emprestar livro?,horario,llm
+a biblioteca funciona 24 horas?,horario,llm
+quero saber os dias e horários de funcionamento,horario,llm
+quero reservar uma sala de estudo em grupo,reserva_sala,llm
+como agendo uma cabine individual?,reserva_sala,llm
+tem sala para estudar em grupo na biblioteca?,reserva_sala,llm
+como reservo uma sala para meu grupo de TCC?,reserva_sala,llm
+quantas pessoas cabem na sala de estudo?,reserva_sala,llm
+por quanto tempo posso usar a sala reservada?,reserva_sala,llm
+reservar sala biblioteca,reserva_sala,llm
+dá pra marcar sala pela internet?,reserva_sala,llm
+preciso de uma sala silenciosa para estudar amanhã,reserva_sala,llm
+as salas de estudo têm tomada e quadro?,reserva_sala,llm
+posso reservar a sala para a semana toda?,reserva_sala,llm
+como cancelo a reserva da sala?,reserva_sala,llm
+tem sala com projetor para ensaiar apresentação?,reserva_sala,llm
+quero agendar a sala multimídia,reserva_sala,llm
+a reserva de sala é por ordem de chegada?,reserva_sala,llm
+consigo reservar sala no sábado?,reserva_sala,llm
+onde vejo as salas livres agora,reserva_sala,llm
+perdi o horário da reserva da sala e agora?,reserva_sala,llm
+a sala de estudo em grupo precisa de agendamento?,reserva_sala,llm
+posso levar comida para a sala de estudos?,reserva_sala,llm
+quero um lugar pra estudar com meus colegas,reserva_sala,llm
+tem cabine pra fazer videochamada?,reserva_sala,llm
+como funciona o agendamento das salas,reserva_sala,llm
+dá pra reservar sala pra reunião do centro acadêmico?,reserva_sala,llm
+a sala de estudo tem ar condicionado?,reserva_sala,llm
+qual o limite de reservas por semana,reserva_sala,llm
+preciso de uma sala para gravar o vídeo do trabalho,reserva_sala,llm
+reserva de cabine de estudo,reserva_sala,llm
+tem espaço pra estudar em silêncio?,reserva_sala,llm
+sala de estudo ta livre hj?,reserva_sala,llm
+posso reservar sala para outra pessoa?,reserva_sala,llm
+quantas horas por dia posso ficar na cabine,reserva_sala,llm
+como acesso o portal de periódicos da capes de casa?,acesso_bases,llm
+consigo baixar artigos pagos pela rede da universidade?,acesso_bases,llm
+como entro no acesso cafe?,acesso_bases,llm
+a biblioteca tem livros digitais?,acesso_bases,llm
+como acesso a minha biblioteca virtual?,acesso_bases,llm
+não consigo acessar o ieee pelo portal capes,acesso_bases,llm
+tem acesso à base scopus?,acesso_bases,llm
+como baixo um artigo da science direct de graça?,acesso_bases,llm
+acesso remoto às bases de dados,acesso_bases,llm
+qual o login do e-book da biblioteca,acesso_bases,llm
+preciso de um artigo que está atrás de paywall,acesso_bases,llm
+vocês assinam a web of science?,acesso_bases,llm
+como uso a vpn para acessar periódicos?,acesso_bases,llm
+o acesso cafe pede usuário e senha quais são?,acesso_bases,llm
+tem normas da abnt disponíveis online?,acesso_bases,llm
+onde encontro teses e dissertações da universidade?,acesso_bases,llm
+como pesquiso artigos científicos pela biblioteca?,acesso_bases,llm
+periodicos capes,acesso_bases,llm
+o link da biblioteca digital está fora do ar,acesso_bases,llm
+dá pra ler e-book no celular?,acesso_bases,llm
+tem acesso ao jstor?,acesso_bases,llm
+preciso de artigo da acm como consigo,acesso_bases,llm
+como faço comutação bibliográfica?,acesso_bases,llm
+o repositório institucional tem os tccs?,acesso_bases,llm
+a universidade tem acesso à springer?,acesso_bases,llm
+não consigo logar na plataforma de ebooks,acesso_bases,llm
+quero acessar bases científicas de fora do campus,acesso_bases,llm
+como achar artigo pelo doi,acesso_bases,llm
+tem treinamento para usar as bases de dados?,acesso_bases,llm
+a biblioteca dá acesso a normas técnicas?,acesso_bases,llm
+como acesso livros eletrônicos da bibliografia da disciplina,acesso_bases,llm
+oi,chitchat,llm
+olá!,chitchat,llm
+bom dia,chitchat,llm
+boa tarde,chitchat,llm
+boa noite,chitchat,llm
+e aí,chitchat,llm
+oi tudo bem?,chitchat,llm
+olá como vai você?,chitchat,llm
+obrigado!,chitchat,llm
+muito obrigada pela ajuda,chitchat,llm
+valeu,chitchat,llm
+brigado,chitchat,llm
+tchau,chitchat,llm
+até logo,chitchat,llm
+até mais,chitchat,llm
+falou,chitchat,llm
+você é um robô?,chitchat,llm
+qual é o seu nome?,chitchat,llm
+quem te criou?,chitchat,llm
+você é humano?,chitchat,llm
+que legal,chitchat,llm
+ok,chitchat,llm
+entendi,chitchat,llm
+beleza,chitchat,llm
+show de bola,chitchat,llm
+haha,chitchat,llm
+kkkkk,chitchat,llm
+você é muito útil,chitchat,llm
+você é inteligente?,chitchat,llm
+gostei de você,chitchat,llm
+como você está?,chitchat,llm
+tudo bom?,chitchat,llm
+opa,chitchat,llm
+alguém aí?,chitchat,llm
+tem alguém me ouvindo?,chitchat,llm
+me conta uma piada,chitchat,llm
+você tem sentimentos?,chitchat,llm
+qual sua idade?,chitchat,llm
+bom dia tudo certo?,chitchat,llm
+obrigado era só isso,chitchat,llm
+perfeito obrigado,chitchat,llm
+ajudou demais valeu,chitchat,llm
+você não entendeu nada,chitchat,llm
+resposta ruim,chitchat,llm
+que bot inútil,chitchat,llm
+hmm,chitchat,llm
+sim,chitchat,llm
+não,chitchat,llm
+tá bom,chitchat,llm
+oii,chitchat,llm
+olá bot,chitchat,llm
+boa tarde pessoal,chitchat,llm
+tenha um bom dia,chitchat,llm
+fui,chitchat,llm
+até amanhã,chitchat,llm
+você gosta de ler?,chitchat,llm
+qual seu livro favorito?,chitchat,llm
+você dorme?,chitchat,llm
+como funciona você?,chitchat,llm
+você fala inglês?,chitchat,llm
+como faço minha matrícula?,fora_dominio,llm
+qual o cardápio do RU hoje?,fora_dominio,llm
+quanto custa a refeição no restaurante universitário?,fora_dominio,llm
+como tranco uma disciplina?,fora_dominio,llm
+onde vejo minhas notas?,fora_dominio,llm
+quando começa o semestre?,fora_dominio,llm
+como solicito meu histórico escolar?,fora_dominio,llm
+como peço auxílio permanência?,fora_dominio,llm
+quando sai o resultado da bolsa de iniciação científica?,fora_dominio,llm
+como faço para conseguir estágio?,fora_dominio,llm
+qual a senha do wifi da universidade?,fora_dominio,llm
+como recupero a senha do sistema acadêmico?,fora_dominio,llm
+quem é o coordenador do curso de computação?,fora_dominio,llm
+onde fica o bloco de engenharia?,fora_dominio,llm
+como peço aproveitamento de disciplina?,fora_dominio,llm
+qual a data da colação de grau?,fora_dominio,llm
+como emito declaração de matrícula?,fora_dominio,llm
+o ônibus circular passa que horas?,fora_dominio,llm
+quando é a prova de cálculo?,fora_dominio,llm
+como faço revisão de nota?,fora_dominio,llm
+qual o prazo para entregar o TCC?,fora_dominio,llm
+como funciona a moradia estudantil?,fora_dominio,llm
+quero me inscrever na monitoria,fora_dominio,llm
+como contesto uma falta?,fora_dominio,llm
+onde imprimo meu trabalho no campus?,fora_dominio,llm
+como funciona o intercâmbio?,fora_dominio,llm
+como faço meu e-mail institucional?,fora_dominio,llm
+a secretaria abre que horas?,fora_dominio,llm
+que horas o RU abre?,fora_dominio,llm
+como reservo o auditório para um evento?,fora_dominio,llm
+quanto custa a carteirinha do estudante para meia entrada?,fora_dominio,llm
+quero comprar um livro de cálculo usado,fora_dominio,llm
+onde compro o livro do Stewart mais barato?,fora_dominio,llm
+me indica um livro de ficção científica,fora_dominio,llm
+qual o resumo do livro dom casmurro?,fora_dominio,llm
+me ajuda a resolver essa integral,fora_dominio,llm
+como faço uma referência bibliográfica de site?,fora_dominio,llm
+qual o horário do laboratório de informática?,fora_dominio,llm
+como renovo meu passaporte?,fora_dominio,llm
+como renovo a carteira de motorista?,fora_dominio,llm
+qual a multa por estacionar em local proibido no campus?,fora_dominio,llm
+quanto é a multa de trânsito por excesso de velocidade?,fora_dominio,llm
+como reservo uma quadra no ginásio?,fora_dominio,llm
+como reservo hotel em Campo Grande?,fora_dominio,llm
+vai chover amanhã?,fora_dominio,llm
+qual a previsão do tempo para o fim de semana,fora_dominio,llm
+quem ganhou o jogo ontem?,fora_dominio,llm
+toca uma música,fora_dominio,llm
+qual a capital da Austrália?,fora_dominio,llm
+me dá uma receita de bolo de cenoura,fora_dominio,llm
+quanto está o dólar hoje?,fora_dominio,llm
+coloca um alarme para as 7h,fora_dominio,llm
+quais as notícias de hoje?,fora_dominio,llm
+pede uma pizza pra mim,fora_dominio,llm
+qual o melhor celular para comprar?,fora_dominio,llm
+quantos habitantes tem o Brasil?,fora_dominio,llm
+como faço para emagrecer?,fora_dominio,llm
+traduz hello para português,fora_dominio,llm
+qual filme está passando no cinema?,fora_dominio,llm
+me recomenda uma série,fora_dominio,llm
+como chego no shopping de ônibus?,fora_dominio,llm
+quanto custa uma passagem para São Paulo?,fora_dominio,llm
+escreve um poema sobre o pantanal,fora_dominio,llm
+qual o sentido da vida?,fora_dominio,llm
+como programar em python?,fora_dominio,llm
+o que é inteligência artificial?,fora_dominio,llm
+qual a fórmula de bhaskara?,fora_dominio,llm
+que dia é hoje?,fora_dominio,llm
+que horas são?,fora_dominio,llm
+onde tem uma farmácia aberta?,fora_dominio,llm
+como funciona o enem?,fora_dominio,llm
+qual o resultado da mega sena?,fora_dominio,llm
+liga a luz da sala,fora_dominio,llm
+manda mensagem para minha mãe,fora_dominio,llm
+como declaro imposto de renda?,fora_dominio,llm
+qual a temperatura agora em Dourados?,fora_dominio,llm
+como cancelo minha assinatura do streaming?,fora_dominio,llm
+como faço café coado?,fora_dominio,llm
+qual é o maior rio do mundo?,fora_dominio,llm

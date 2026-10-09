@@ -1,0 +1,105 @@
+# =============================================================================
+#  EXEMPLO RESOLVIDO - Chatbot da Biblioteca (universidade fictícia)
+#  Este tema é só ilustrativo e NÃO pode ser escolhido pelos grupos.
+#  As regras (prazos, valores, horários) são inventadas.
+# =============================================================================
+
+grupo:
+  nome: "Exemplo do professor"
+  integrantes:
+    - nome: "Prof. Bruno M. Nogueira"
+      rga: "-"
+
+tema:
+  nome: "Biblioteca universitária"
+  descricao: >
+    Atendimento automático da biblioteca central: empréstimos, renovações,
+    multas, horários, reserva de salas de estudo e acesso a bases digitais.
+
+dados:
+  treino: dados/treino.csv
+  teste: dados/teste.csv
+
+modelos:
+  escopo: modelos/escopo.joblib
+  tema: modelos/tema.joblib
+
+# Configuração do LLM que REDIGE as respostas (via OpenRouter). Os classificadores
+# decidem a rota; o LLM só escreve o texto, a partir dos trechos dos documentos.
+llm:
+  modelo: "openai/gpt-6-luna"   # lista de modelos: https://openrouter.ai/models
+  temperatura: 0.3
+  max_tokens: 300
+  usar_em: [intencoes, chitchat]         # fora_dominio usa a resposta fixa (mais seguro)
+  persona: >
+    Você é a Bia, assistente virtual da Biblioteca Central de uma universidade.
+    Fale de forma cordial, simples e direta, tratando o estudante por "você".
+  contato: "o balcão de atendimento da biblioteca ou o e-mail biblioteca@universidade.edu"
+  max_frases: 3
+  turnos_historico: 3
+
+# Base de conhecimento (RAG): os documentos oficiais ficam em documentos/, com uma
+# subpasta por intenção (opcional) e uma subpasta geral/. Na primeira conversa com
+# o LLM, o índice vetorial é criado em .vectordb/ (e recriado se os documentos mudarem).
+conhecimento:
+  pasta: documentos
+  representacao: tfidf        # tfidf (padrão) ou embeddings (pip install -r requirements-extra.txt)
+  tamanho_trecho: 700         # caracteres por trecho
+  k: 4                        # trechos enviados ao LLM
+  similaridade_minima: 0.05
+
+roteamento:
+  # Se a maior probabilidade do classificador de tema ficar abaixo deste valor,
+  # o bot pergunta em vez de responder (nó "esclarecer"). 0 desliga o recurso.
+  limiar_tema: 0.35
+
+intencoes:
+  emprestimo:
+    descricao: "empréstimo de livros"
+    # "resposta": texto fixo, usado quando o LLM está desligado e na avaliação
+    # automática. Com o LLM ligado, a resposta vem dos DOCUMENTOS (pasta documentos/).
+    resposta: >
+      Alunos de graduação podem levar até 5 livros por 14 dias; alunos de
+      pós-graduação, até 8 livros por 21 dias. Basta apresentar a carteirinha
+      (ou o QR code do aplicativo) no balcão ou no totem de autoatendimento.
+  renovacao:
+    descricao: "renovação de empréstimos"
+    resposta: >
+      A renovação é feita pelo site ou pelo aplicativo, em "Meus empréstimos",
+      até 3 vezes por livro, desde que não haja reserva de outro usuário nem
+      atraso. O novo prazo conta a partir do dia da renovação.
+  multa:
+    descricao: "multas, atrasos e pendências"
+    resposta: >
+      Cada dia de atraso gera 1 dia de suspensão por livro. Livros perdidos ou
+      danificados devem ser repostos com um exemplar igual (ou edição mais
+      recente). Pendências impedem a emissão do "nada consta".
+  horario:
+    descricao: "horários de funcionamento"
+    resposta: >
+      A biblioteca central funciona de segunda a sexta, das 7h às 22h, e aos
+      sábados, das 8h às 12h. Em férias e recessos o horário é reduzido
+      (8h às 17h); feriados são anunciados no site.
+  reserva_sala:
+    descricao: "reserva de salas e cabines de estudo"
+    resposta: >
+      Salas de grupo (até 6 pessoas) e cabines individuais são reservadas pelo
+      site, com até 7 dias de antecedência, em blocos de 2 horas (máximo de
+      4 horas por dia). A reserva cai após 15 minutos de atraso.
+  acesso_bases:
+    descricao: "acesso a periódicos, e-books e bases digitais"
+    resposta: >
+      Fora do campus, acesse o Portal de Periódicos CAPES pelo "Acesso CAFe",
+      usando o mesmo login do sistema acadêmico. E-books ficam na Biblioteca
+      Virtual, no menu "Acervo digital"; teses e TCCs, no repositório institucional.
+
+respostas:
+  chitchat:
+    saudacao: "Olá! Sou o assistente da biblioteca. Como posso ajudar?"
+    agradecimento: "Por nada! Bons estudos."
+    despedida: "Até logo! Lembre-se de conferir os prazos dos seus livros."
+    padrao: "Sou o assistente virtual da biblioteca e posso ajudar com: {assuntos}."
+  fora_dominio: >
+    Desculpe, só sei responder sobre a biblioteca: {assuntos}. Para outros
+    assuntos, procure a secretaria do seu curso.
+  esclarecer: "Não tenho certeza se entendi. Sua dúvida é sobre {opcao1} ou sobre {opcao2}?"
