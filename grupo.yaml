@@ -6,19 +6,19 @@
 # =============================================================================
 
 grupo:
-  nome: "TODO: nome do grupo (ex.: Grupo 3)"
+  nome: "Starbucks"
   integrantes:          # 3 a 4 integrantes
-    - nome: "TODO"
-      rga: "TODO"
+    - nome: "Vinicius dos Santos Boldan"
+      rga: "202419050085"
     - nome: "TODO"
       rga: "TODO"
     - nome: "TODO"
       rga: "TODO"
 
 tema:
-  nome: "TODO: tema validado com o professor"
+  nome: "Iniciação Cientifica e Monitoria"
   descricao: >
-    TODO: uma ou duas frases dizendo o que o bot faz e para quem.
+    Para estudantes da UFMS tirarem dúvidas sobre atiidades de extensão e monitoria, como valores de bolsas, onde consultar editais, etc.
 
 dados:                  # caminhos relativos a este arquivo - não altere
   treino: dados/treino.csv
@@ -61,24 +61,24 @@ roteamento:
 # De 5 a 10 intenções. O nome (chave) deve ter só letras minúsculas sem acento,
 # dígitos e "_". "descricao" aparece nas mensagens do bot ("Posso ajudar com: ...").
 intencoes:
-  TODO_intencao_1:
+  editais:
     descricao: "TODO"
     resposta: >
       TODO: resposta fixa curta (usada sem LLM e na avaliação automática). Com o
       LLM ligado, o bot responde a partir dos documentos da pasta documentos/.
-  TODO_intencao_2:
+  como_se_inscrever:
     descricao: "TODO"
     resposta: >
       TODO
-  TODO_intencao_3:
+  como_sao_relatorios:
     descricao: "TODO"
     resposta: >
       TODO
-  TODO_intencao_4:
+  certificados:
     descricao: "TODO"
     resposta: >
       TODO
-  TODO_intencao_5:
+  bolsas_e_valores:
     descricao: "TODO"
     resposta: >
       TODO
@@ -87,9 +87,9 @@ intencoes:
 # das intenções; {opcao1}/{opcao2}, as duas intenções mais prováveis.
 respostas:
   chitchat:
-    saudacao: "Olá! Como posso ajudar?"
-    agradecimento: "Por nada!"
-    despedida: "Até logo!"
+    saudacao: "Saudações! Como posso ajudar?"
+    agradecimento: "Não há por onde!"
+    despedida: "Até logo! E caso eu não te veja: bom dia, boa tarde e boa noite!"
     padrao: "Sou um assistente automático e posso ajudar com: {assuntos}."
   fora_dominio: "Desculpe, não sei responder sobre isso. Posso ajudar com: {assuntos}."
   esclarecer: "Não tenho certeza se entendi. Sua dúvida é sobre {opcao1} ou sobre {opcao2}?"
