@@ -10,10 +10,10 @@ grupo:
   integrantes:          # 3 a 4 integrantes
     - nome: "Vinicius dos Santos Boldan"
       rga: "202419050085"
-    - nome: "TODO"
-      rga: "TODO"
-    - nome: "TODO"
-      rga: "TODO"
+    - nome: "Kimberlly Lauany Stachelski Canhete"
+      rga: "202519060627"
+    - nome: "Hytalo Maito Bassi"
+      rga: "202419050166"
 
 tema:
   nome: "Iniciação Cientifica e Monitoria"
@@ -37,9 +37,8 @@ llm:
   max_tokens: 300
   usar_em: [intencoes, chitchat]         # nós em que o LLM redige a resposta
   persona: >
-    TODO: quem é o bot e como ele fala. Ex.: "Você é o Rex, assistente virtual do
-    Restaurante Universitário. Seja cordial, simples e direto."
-  contato: "TODO: para onde encaminhar o que o bot não sabe (setor, e-mail...)"
+    Voce é Kitt, inteligencia artificial sarcástica, bem humorada e muito inteligente e bem informada que tem informações sobre iniciação cientifica e monitoria, com base em documentos e editais online da UFMS.
+  contato: "boldan.vinicius@ufms.br"
   max_frases: 3
   turnos_historico: 3
 
@@ -60,28 +59,71 @@ roteamento:
 
 # De 5 a 10 intenções. O nome (chave) deve ter só letras minúsculas sem acento,
 # dígitos e "_". "descricao" aparece nas mensagens do bot ("Posso ajudar com: ...").
+
 intencoes:
   editais:
-    descricao: "TODO"
+    descricao: >
+      Posso ajudar a encontrar editais anteriores de iniciação científica
+      e monitoria, além de esclarecer dúvidas sobre as regras e os
+      procedimentos descritos nesses documentos.
     resposta: >
-      TODO: resposta fixa curta (usada sem LLM e na avaliação automática). Com o
-      LLM ligado, o bot responde a partir dos documentos da pasta documentos/.
+      Você pode consultar os editais de iniciação científica na página da
+      PROPP: https://propp.ufms.br/category/editais-publicados/editais-iniciacao-cientifica/
+
+      Para consultar os editais de monitoria, acesse a página da PROGRAD:
+      https://prograd.ufms.br/category/editais/editais-monitoria/
+
   como_se_inscrever:
-    descricao: "TODO"
+    descricao: >
+      Posso esclarecer dúvidas sobre os processos de inscrição e seleção
+      para iniciação científica e monitoria, com base nas informações
+      disponíveis nos editais.
     resposta: >
-      TODO
+      Para consultar informações sobre o processo seletivo de monitores
+      voluntários de 2026, acesse o edital da PROGRAD:
+      https://prograd.ufms.br/edital-no-21-2026-prograd-ufms-cadastro-de-propostas-de-plano-de-trabalho-do-programa-institucional-de-monitoria-voluntaria-na-ufms-em-2026/
+
+      Para informações sobre iniciação científica, consulte o edital
+      de 2025:
+      https://propp.ufms.br/edital-pibic-pibic-af-pibiti-2025/
+
   como_sao_relatorios:
-    descricao: "TODO"
+    descricao: >
+      Posso esclarecer dúvidas sobre a estrutura, o formato e os modelos
+      de relatórios de iniciação científica e monitoria.
     resposta: >
-      TODO
-  certificados:
-    descricao: "TODO"
+      Você pode consultar orientações e materiais de apoio para a elaboração
+      de trabalhos acadêmicos, que podem auxiliar na preparação dos relatórios,
+      no seguinte endereço:
+      https://cpnv.ufms.br/cursos/administracao/guia-de-elaboracao-de-trabalhos-academicos/
+
+  requisitos_minimos:
+    descricao: >
+      Posso esclarecer dúvidas sobre os requisitos para participar de
+      atividades de monitoria, remunerada ou voluntária, e de projetos
+      de iniciação científica.
     resposta: >
-      TODO
+      Os requisitos de participação estão descritos nos editais de cada
+      programa. Consulte os editais de iniciação científica na página da PROPP:
+      https://propp.ufms.br/category/editais-publicados/editais-iniciacao-cientifica/
+
+      Para consultar os requisitos dos programas de monitoria, acesse
+      a página da PROGRAD:
+      https://prograd.ufms.br/category/editais/editais-monitoria/
+
   bolsas_e_valores:
-    descricao: "TODO"
+    descricao: >
+      Posso esclarecer dúvidas sobre bolsas de iniciação científica
+      e monitoria remunerada, incluindo valores e condições de participação,
+      conforme as informações disponíveis nos editais.
     resposta: >
-      TODO
+      Para consultar informações sobre bolsas e modalidades de monitoria,
+      acesse os editais da PROGRAD:
+      https://prograd.ufms.br/category/editais/editais-monitoria/
+
+      Para informações sobre bolsas de iniciação científica, consulte
+      os editais da PROPP:
+      https://propp.ufms.br/category/editais-publicados/
 
 # Respostas dos nós que não são intenções. {assuntos} vira a lista de descrições
 # das intenções; {opcao1}/{opcao2}, as duas intenções mais prováveis.

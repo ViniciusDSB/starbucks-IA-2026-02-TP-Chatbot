@@ -54,15 +54,6 @@ forneceu, ou "escrito pelo grupo com base em ...").
 | `geral/bolsas_e_valores/f1e8e85a_030-2019-PROPP-Edital-PIBIC-1.pdf` | https://propp.ufms.br/files/2019/03/030-2019-PROPP-Edital-PIBIC-1.pdf |
 | `geral/bolsas_e_valores/fb9419b3_095-2018-PIBIC-PIBITI-PIBIC-AF.pdf` | https://propp.ufms.br/files/2018/04/095-2018-PIBIC-PIBITI-PIBIC-AF.pdf |
 | `geral/bolsas_e_valores/fff91340_publicacao.pdf` | https://boletimoficial.ufms.br/bse/publicacao?id=510166 |
-| `geral/certificados/20_propp.ufms.br_pesquisa_iniciacao-cientifica_certificados-de-trabalhos-destaques-pibicpibiti-no.html` | https://propp.ufms.br/pesquisa/iniciacao-cientifica/certificados-de-trabalhos-destaques-pibicpibiti-no-integra-ufms-2018/ |
-| `geral/certificados/21_propp.ufms.br_certificado-de-comprovacao-de-iniciacao-cientificatecnologica-e-voluntarios-pibi.html` | https://propp.ufms.br/certificado-de-comprovacao-de-iniciacao-cientificatecnologica-e-voluntarios-pibicpibic-afpibiti-e-pivic-20172018/ |
-| `geral/certificados/22_agead.ufms.br_emissao-de-certificados-sicert.html` | https://agead.ufms.br/emissao-de-certificados-sicert/ |
-| `geral/certificados/35bde2b7_publicacao.pdf` | https://boletimoficial.ufms.br/bse/publicacao?id=511230 |
-| `geral/certificados/6b20eabc_publicacao.pdf` | https://boletimoficial.ufms.br/bse/publicacao?id=416767 |
-| `geral/certificados/77132ff1_EDITAL-No-20_2026-PROGRADUFMS.pdf` | https://prograd.ufms.br/files/2026/01/EDITAL-No-20.2026-PROGRADUFMS.pdf |
-| `geral/certificados/b7ac065e_EDITAL-No-21_2026-PROGRADUFMS.pdf` | https://prograd.ufms.br/files/2026/01/EDITAL-No-21.2026-PROGRADUFMS.pdf |
-| `geral/certificados/e8e3f830_publicacao.pdf` | https://boletimoficial.ufms.br/bse/publicacao?id=545782 |
-| `geral/certificados/ea47b681_EDITAL-No-18_2026.pdf` | https://prograd.ufms.br/files/2026/01/EDITAL-No-18.2026.pdf |
 | `geral/como_sao_relatorios/0c8923fb_Guia-para-cadastrar-o-bolsista-voluntario-no-sistema-Sigproj-PROPP-UFMS-No-35-20.pdf` | https://propp.ufms.br/files/2021/08/Guia-para-cadastrar-o-bolsista-voluntario-no-sistema-Sigproj-PROPP-UFMS-No-35-2021.pdf |
 | `geral/como_sao_relatorios/0cc4ea6b_Relatório-Gestão-2016-UFMS.pdf` | https://www.ufms.br/wp-content/uploads/2017/03/Relatório-Gestão-2016-UFMS.pdf |
 | `geral/como_sao_relatorios/15_cpan.ufms.br_2019_07_24_informes-relatorio-final-de-monitoria-e-avaliacao-pelos-monitores.html` | https://cpan.ufms.br/2019/07/24/informes-relatorio-final-de-monitoria-e-avaliacao-pelos-monitores/ |
@@ -165,3 +156,11 @@ forneceu, ou "escrito pelo grupo com base em ...").
 | `geral/editais/fa16d256_edital-3-conjunto-Prograd-Progep-retificação.pdf` | https://prograd.ufms.br/files/2021/07/edital-3-conjunto-Prograd-Progep-retificação.pdf |
 | `geral/editais/ffc7fb91_CalendarioReunioesCEP.pdf` | https://propp.ufms.br/files/2020/01/CalendarioReunioesCEP.pdf |
 | `geral/editais/ffd9b611_Edital-Propp-02-2020-Projeto-de-Pesquisa-sem-Fomento.pdf` | https://propp.ufms.br/files/2020/01/Edital-Propp-02-2020-Projeto-de-Pesquisa-sem-Fomento.pdf |
+|`geral/como_sao_relatorios/RELATORIO-MONITORIA.docx`|https://cpnv.ufms.br/cursos/administracao/guia-de-elaboracao-de-trabalhos-academicos/|
+|geral/como_sao_relatorios/RELATORIO-PIBIC-PIVIC.docx|https://cpnv.ufms.br/cursos/administracao/guia-de-elaboracao-de-trabalhos-academicos/|
+|'geral/requisitos_minimos/e2240b7d_publicacao.pdf'| https://boletimoficial.ufms.br/bse/publicacao?id=477135 |
+|'geral/requisitos_minimos/e4e8dac7_Portaria-n_-443-13_04_2018.pdf'| https://seavi.ufms.br/files/2018/04/Portaria-n.-443-13.04.2018.pdf |
+|'geral/requisitos_minimos/ea732c9f_INSTRUCAO-NORMATIVA-PROPP_RTR-n-8-de-25-02-2021.pdf'| https://propp.ufms.br/files/2021/07/INSTRUCAO-NORMATIVA-PROPP_RTR-n-8-de-25-02-2021.pdf |
+|'geral/requisitos_minimos/ebbfd39a_Edital-no-241-PROGRAD-UFMS-RETIFICACAO-Monitoria-Remunerada-Divulgacao-das-Disci.pdf'| https://prograd.ufms.br/files/2022/08/Edital-no-241-PROGRAD-UFMS-RETIFICACAO-Monitoria-Remunerada-Divulgacao-das-Disciplinas-Selecionadas-2022.2.pdf |
+|'geral/requisitos_minimos/f33d8fb7_Portaria-n_-1208-10_10_2017.pdf'| https://seavi.ufms.br/files/2017/11/Portaria-n.-1208-10.10.2017.pdf |
+|'geral/requisitos_minimos/f82f5a88_publicacao.pdf'| https://boletimoficial.ufms.br/bse/publicacao?id=518002 |
