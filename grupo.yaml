@@ -16,9 +16,9 @@ grupo:
       rga: "202419050166"
 
 tema:
-  nome: "Iniciação Cientifica e Monitoria"
+  nome: "Bot Suporte Iniciação Cientifica e Monitoria"
   descricao: >
-    Para estudantes da UFMS tirarem dúvidas sobre atiidades de extensão e monitoria, como valores de bolsas, onde consultar editais, etc.
+    Assistente virtual destinado a estudantes da UFMS para esclarecer dúvidas sobre programas de iniciação científica e monitoria, incluindo consulta a editais, processos de inscrição e seleção, requisitos de participação, elaboração de relatórios e informações sobre bolsas e valores. As respostas serão fundamentadas nos documentos e nas fontes institucionais disponíveis.
 
 dados:                  # caminhos relativos a este arquivo - não altere
   treino: dados/treino.csv
