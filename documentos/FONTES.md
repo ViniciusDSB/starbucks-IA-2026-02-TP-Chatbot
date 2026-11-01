@@ -1,7 +1,5 @@
 # Fontes dos documentos
 
-TODO: uma linha por documento - arquivo, origem (URL e data de acesso, setor que
-forneceu, ou "escrito pelo grupo com base em ...").
 
 | arquivo | origem (acesso em 15/10/2026) |
 | --- | --- |
@@ -164,3 +162,6 @@ forneceu, ou "escrito pelo grupo com base em ...").
 |'./requisitos_minimos/ebbfd39a_Edital-no-241-PROGRAD-UFMS-RETIFICACAO-Monitoria-Remunerada-Divulgacao-das-Disci.pdf'| https://prograd.ufms.br/files/2022/08/Edital-no-241-PROGRAD-UFMS-RETIFICACAO-Monitoria-Remunerada-Divulgacao-das-Disciplinas-Selecionadas-2022.2.pdf |
 |'./requisitos_minimos/f33d8fb7_Portaria-n_-1208-10_10_2017.pdf'| https://seavi.ufms.br/files/2017/11/Portaria-n.-1208-10.10.2017.pdf |
 |'./requisitos_minimos/f82f5a88_publicacao.pdf'| https://boletimoficial.ufms.br/bse/publicacao?id=518002 |
+| `./como_sao_relatorios/Modelo-de-Relatório-Final-de-Monitoria.doc` | https://prograd.ufms.br/programas-e-projetos/programa-de-monitoria/modelo-de-relatorio-final-de-monitoria/ |
+| `./como_sao_relatorios/RELATORIO-PIBIC-PIVIC.docx` | https://cpnv.ufms.br/cursos/administracao/guia-de-elaboracao-de-trabalhos-academicos/ |
+| `./como_sao_relatorios/SUBMISSÃO DO RELATÓRIO FINAL DE INICIAÇÃO CIENTÍFICA.docx` | https://propp.ufms.br/pesquisa/iniciacao-cientifica/relatorios-finais-de-iniciacao-cientifica-e-tecnologica-pibic-pibic-af-pibiti-ciclo-2024-2025/ |
