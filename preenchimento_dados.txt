@@ -1,0 +1,22 @@
+Completo - Treino, 20% deve ser humano{
+	50 editais	  			 	| status: 10/10 humana, 40/40 llm
+	50 como_se_inscrever	  	| status: 11/10 humana, 40/40 llm
+	50 como_sao_relatorios	  	| status: 10/10 humana, 40/40 llm
+	50 requisitos_minimos	  	| status: 10/10 humana, 40/40 llm
+	50 bolsas_e_valores	  		| status: 10/10 humana, 40/40 llm
+	100 chitchat			 	| status: 20/20 humana, 80/80 llm
+	150 fora dom				| status: 30/30 humana, 120/120 llm
+}
+
+Completo - Teste, 100% humano{
+	15 editais	  			 	| status: 16/15 humana
+	15 como_se_inscrever	  	| status: 15/15 humana
+	15 como_sao_relatorios	  	| status: 16/15 humana
+	15 requisitos_minimos	  	| status: 15/15 humana
+	15 bolsas_e_valores	  		| status: 15/15 humana
+	30 chitchat   				| status: 30/30 humana
+	40 fora dom   				| status: 40/40 humana
+}
+
+Nota: Humano -> por integrantes ou coletadas por faq/fomrs
+
