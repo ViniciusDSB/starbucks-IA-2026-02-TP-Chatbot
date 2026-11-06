@@ -130,7 +130,7 @@ Preciso estar em qual período do curso pra me candidatar à bolsa?,requisitos_m
 Quem está com a matrícula trancada pode participar da seleção?,requisitos_minimos,humano
 Pra ser monitor, preciso já ter cursado e passado na disciplina?,requisitos_minimos,humano
 Posso me inscrever na iniciação científica se ainda não tiver experiência com pesquisa?,requisitos_minimos,humano
-Qual é o valor da bolsa de iniciação científica da UFMS?,bolsas_e_valores,humano
+Quanto é o a bolsa de ic da UFMS?,bolsas_e_valores,humano
 A monitoria remunerada paga quanto por mês?,bolsas_e_valores,humano
 A bolsa de IC cai na conta todo mês ou depende de alguma etapa?,bolsas_e_valores,humano
 Por quantos meses o aluno recebe a bolsa de iniciação científica?,bolsas_e_valores,humano
