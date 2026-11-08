@@ -80,10 +80,10 @@ texto,intencao,origem
 "Fechado então!",chitchat,llm
 "Bom dia",chitchat,humano
 "Salve",chitchat,humano
-"Ao tudo certo?",chitchat,Humano
+"Ao tudo certo?",chitchat,humano
 "oii, tudo bem?",chitchat,humano
 "eai, beleza?",chitchat,humano
-"bom diaa",chitchat,humano
+"Salve salve, familia",chitchat,humano
 "opa, tudo certo por ai?",chitchat,humano
 "como vc ta hj?",chitchat,humano
 "valeu pela força!",chitchat,humano
@@ -92,7 +92,7 @@ texto,intencao,origem
 "kkkk boa essa",chitchat,humano
 "vc é gente boa sabia",chitchat,humano
 "to meio sem nada pra fazer agora",chitchat,humano
-"como foi seu dia?",chitchat,humano
+"E ai como foi seud ia?",chitchat,humano
 "ahh entendi, faz sentido",chitchat,humano
 "pode crer kkk",chitchat,humano
 "blz, depois eu volto",chitchat,humano
@@ -464,7 +464,7 @@ texto,intencao,origem
 "posso participar da IC sem nunca ter feito pesquisa antes?",requisitos_minimos,humano
 "quem ta com a matricula trancada pode participar?",requisitos_minimos,humano
 "precisa ter um professor orientador pra fazer IC?",requisitos_minimos,humano
-"posso ser monitor de uma disciplina de outro curso?",requisitos_minimos,humano
+"Tem chance de eu ser monitor de uma disciplina de outro curso diferente do meu?",requisitos_minimos,humano
 "tem alguma restrição pra quem ja recebe outra bolsa?",requisitos_minimos,humano
 "como sei se cumpro os requisitos pra participar da monitoria?",requisitos_minimos,humano
 "Qual é o valor da bolsa de iniciação científica da UFMS?",bolsas_e_valores,llm
