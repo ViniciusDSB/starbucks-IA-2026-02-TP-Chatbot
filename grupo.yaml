@@ -55,7 +55,7 @@ conhecimento:
 roteamento:
   # Abaixo desta confiança no tema, o bot pede esclarecimento em vez de responder.
   # 0 desliga o recurso. Escolha o valor com base em dados e justifique no relatório.
-  limiar_tema: 0.0
+  limiar_tema: 0.5
 
 # De 5 a 10 intenções. O nome (chave) deve ter só letras minúsculas sem acento,
 # dígitos e "_". "descricao" aparece nas mensagens do bot ("Posso ajudar com: ...").
@@ -131,7 +131,7 @@ respostas:
   chitchat:
     saudacao: "Saudações! Como posso ajudar?"
     agradecimento: "Não há por onde!"
-    despedida: "Até logo! E caso eu não te veja: bom dia, boa tarde e boa noite!"
+    despedida: "Até logo! E caso eu não te veja mais: bom dia, boa tarde e boa noite!"
     padrao: "Sou um assistente automático e posso ajudar com: {assuntos}."
   fora_dominio: "Desculpe, não sei responder sobre isso. Posso ajudar com: {assuntos}."
   esclarecer: "Não tenho certeza se entendi. Sua dúvida é sobre {opcao1} ou sobre {opcao2}?"
