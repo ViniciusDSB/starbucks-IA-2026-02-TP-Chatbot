@@ -1,0 +1,65 @@
+USO DE IA
+
+Claude  usado para gerar scripts para baixar documentos e manter registro das origens etc; esses registros foram feitos em um .json
+
+Usada para organizar os documentos, e fazer uma fltragem simples por termo. Termos novos foram adicionados iterando a filtragem nos dados.
+
+ChatGPT usado para preencher o FONTES.md com base no json editado apos filtragem dos documentos.
+
+Geração das frases no limite permitido para treino, alguns arquivos foram dados de exemplos pra ter duvidas que possam ser tiradas.
+
+Usada para organizar e contabilizar os dados de treino e teste para verificar se estavam de acordo com requisitado.
+
+Tentativa frustrada de melhorar a filtragem dos documentos com um classificador ...
+
+Usada para gerar script de verificação das probabilidades de validação cruzada. Gerou três trechos de código no notebook do grupo, um dos quais foi descartado por gerar gráfico sem significado; a tabela foi usada para escolher o limiar de confiança.
+
+NÃO FOI FEITO COM IA:
+
+Escolha de limiar de confiança com base nos dados;
+
+Escolha dos modelos de classificação de escopo e intenção;
+
+Tudo que não é permitido ser feito com IA, como os dados de teste;
+
+DETALHES:
+
+Os datasets tem, mesmo com filtragem, arquivos fora das intenções;
+
+Tentativa de filtragem maior foi feita, mas o sucesso é baixo, foi usado sentence transformer paraphrase-multilingual-MiniLM-L12-v2
+
+Várias das frases dos dados de teste e treino podem ser ambíguas -> o modelo precisa decidir entre responder com informações da monitoria ou IC, mas ambos os casos fazem parte da intenção
+você: como me inscrevo
+  [rota=fora_dominio | resposta fixa]
+  bot: Desculpe, não sei responder sobre isso. Posso ajudar com: Posso ajudar a encontrar editais anteriores de iniciação científica e monitoria, além de esclarecer dúvidas sobre as regras e os procedimentos descritos nesses documentos., Posso esclarecer dúvidas sobre os processos de inscrição e seleção para iniciação científica e monitoria, com base nas informações disponíveis nos editais., Posso esclarecer dúvidas sobre a estrutura, o formato e os modelos de relatórios de iniciação científica e monitoria., Posso esclarecer dúvidas sobre os requisitos para participar de atividades de monitoria, remunerada ou voluntária, e de projetos de iniciação científica. e Posso esclarecer dúvidas sobre bolsas de iniciação científica e monitoria remunerada, incluindo valores e condições de participação, conforme as informações disponíveis nos editais..
+
+
+Enviesamento nos dados:
+você: preciso de um resumo dos editais de ic
+  [rota=editais | resposta llm]
+  bot: Os trechos disponíveis são de editais de monitoria e não trazem informações para resumir os editais de iniciação científica. Para obter esse resumo, escreva para boldan.vinicius@ufms.br. [fonte: editais de monitoria da Prograd/UFMS]
+
+Não responde diretamente sobre estruturas de relatórios como deveria:
+você: qual modelo dos relatorios de ic e monitoria?
+  [rota=como_sao_relatorios | resposta fixa]
+  bot: Você pode consultar orientações e materiais de apoio para a elaboração de trabalhos acadêmicos, que podem auxiliar na preparação dos relatórios, no seguinte endereço: https://cpnv.ufms.br/cursos/administracao/guia-de-elaboracao-de-trabalhos-academicos/
+
+você: Como são os relatorios de ic?
+  [rota=como_sao_relatorios | resposta fixa]
+  bot: Você pode consultar orientações e materiais de apoio para a elaboração de trabalhos acadêmicos, que podem auxiliar na preparação dos relatórios, no seguinte endereço: https://cpnv.ufms.br/cursos/administracao/guia-de-elaboracao-de-trabalhos-academicos/
+
+você: como faço relatorio de monitoroa?
+  [rota=como_sao_relatorios | resposta fixa]
+  bot: Você pode consultar orientações e materiais de apoio para a elaboração de trabalhos acadêmicos, que podem auxiliar na preparação dos relatórios, no seguinte endereço: https://cpnv.ufms.br/cursos/administracao/guia-de-elaboracao-de-trabalhos-academicos/
+
+Mas as vezes da uma resposta melhor:
+você: qual modelo dos relatorios de ic e monitoria?
+  [rota=como_sao_relatorios | resposta llm]
+  bot: Para iniciação científica, a PROPP disponibiliza modelos de relatório parcial e final, além das normas e do modelo de resumo para publicação. Para monitoria, o trecho disponível cita um modelo de relatório final de 2019.1, preenchido com o docente responsável; não informa um modelo atual — para confirmar, escreva a **boldan.vinicius@ufms.br**. [fontes: como_sao_relatorios/19_propp.ufms.br_pesquisa_iniciacao-cientifica_formularios-de-relatorio-parcial-e-final-de-inicia.html; como_sao_relatorios/16_famed.ufms.br_en_relatorio-final-de-monitoria-20191-e-avaliacao-pelos-monitores.html]
+
+
+Respostas boas ou quase:
+você: Qual valor da bolsa de monitoria e de IC?
+  [rota=bolsas_e_valores | resposta llm]
+  bot: A bolsa de monitoria é de R$ 700 mensais para estudante aprovado no programa; os trechos disponíveis não informam o valor da bolsa de iniciação científica. Para essa informação, consulte boldan.vinicius@ufms.br. [fontes: bolsas_e_valores/da2c6f75_publicacao.pdf; bolsas_e_valores/edffeea7_publicacao.pdf]
+  alternativa bot: A bolsa de monitoria é de R$ 700 por mês; um edital de 2020 previa uma parcela de R$ 400 para monitores específicos. O valor da bolsa de iniciação científica não aparece nos trechos disponíveis; ...
