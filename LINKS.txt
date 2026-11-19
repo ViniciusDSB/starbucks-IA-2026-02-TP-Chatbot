@@ -1,4 +1,4 @@
 # Links da entrega - preencha depois de publicar o vídeo.
 # O vídeo deve ser público ou "não listado" (YouTube) / aberto a quem tem o link (Drive).
-video: https://youtube.com/watch?v=link_teste
+video: https://youtu.be/A9hSDCU8iWY?si=6OVnSrPKpLJZi9_4
 repositorio: https://github.com/ViniciusDSB/starbucks-IA-2026-02-TP-Chatbot

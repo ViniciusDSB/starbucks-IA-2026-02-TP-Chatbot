@@ -1,0 +1,328 @@
+{
+  "grupo": "Starbucks",
+  "tema": "Bot Suporte Iniciação Cientifica e Monitoria",
+  "intencoes": [
+    "editais",
+    "como_se_inscrever",
+    "como_sao_relatorios",
+    "requisitos_minimos",
+    "bolsas_e_valores"
+  ],
+  "escopo": {
+    "n": 147,
+    "acuracia": 0.9047619047619048,
+    "f1_macro": 0.8809823594989835,
+    "por_classe": {
+      "dominio": {
+        "precision": 0.9166666666666666,
+        "recall": 1.0,
+        "f1-score": 0.9565217391304348,
+        "support": 77.0
+      },
+      "chitchat": {
+        "precision": 0.8285714285714286,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.8923076923076924,
+        "support": 30.0
+      },
+      "fora_dominio": {
+        "precision": 0.9642857142857143,
+        "recall": 0.675,
+        "f1-score": 0.7941176470588235,
+        "support": 40.0
+      },
+      "accuracy": 0.9047619047619048,
+      "macro avg": {
+        "precision": 0.9031746031746032,
+        "recall": 0.8805555555555555,
+        "f1-score": 0.8809823594989835,
+        "support": 147.0
+      },
+      "weighted avg": {
+        "precision": 0.9116456106252024,
+        "recall": 0.9047619047619048,
+        "f1-score": 0.8992252419362394,
+        "support": 147.0
+      }
+    },
+    "rotulos": [
+      "dominio",
+      "chitchat",
+      "fora_dominio"
+    ],
+    "matriz_confusao": [
+      [
+        77,
+        0,
+        0
+      ],
+      [
+        0,
+        29,
+        1
+      ],
+      [
+        7,
+        6,
+        27
+      ]
+    ]
+  },
+  "tema_oraculo": {
+    "n": 77,
+    "acuracia": 0.7662337662337663,
+    "f1_macro": 0.76473604826546,
+    "por_classe": {
+      "editais": {
+        "precision": 0.9,
+        "recall": 0.5625,
+        "f1-score": 0.6923076923076923,
+        "support": 16.0
+      },
+      "como_se_inscrever": {
+        "precision": 0.6842105263157895,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.7647058823529411,
+        "support": 15.0
+      },
+      "como_sao_relatorios": {
+        "precision": 0.875,
+        "recall": 0.875,
+        "f1-score": 0.875,
+        "support": 16.0
+      },
+      "requisitos_minimos": {
+        "precision": 0.5882352941176471,
+        "recall": 0.6666666666666666,
+        "f1-score": 0.625,
+        "support": 15.0
+      },
+      "bolsas_e_valores": {
+        "precision": 0.8666666666666667,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.8666666666666667,
+        "support": 15.0
+      },
+      "accuracy": 0.7662337662337663,
+      "macro avg": {
+        "precision": 0.7828224974200207,
+        "recall": 0.7675,
+        "f1-score": 0.76473604826546,
+        "support": 77.0
+      },
+      "weighted avg": {
+        "precision": 0.7855413935909292,
+        "recall": 0.7662337662337663,
+        "f1-score": 0.7652274196391844,
+        "support": 77.0
+      }
+    },
+    "rotulos": [
+      "editais",
+      "como_se_inscrever",
+      "como_sao_relatorios",
+      "requisitos_minimos",
+      "bolsas_e_valores"
+    ],
+    "matriz_confusao": [
+      [
+        9,
+        4,
+        1,
+        2,
+        0
+      ],
+      [
+        0,
+        13,
+        0,
+        2,
+        0
+      ],
+      [
+        0,
+        0,
+        14,
+        2,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        10,
+        2
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        13
+      ]
+    ]
+  },
+  "ponta_a_ponta": {
+    "n": 147,
+    "acuracia": 0.7687074829931972,
+    "f1_macro": 0.771844524425824,
+    "por_classe": {
+      "editais": {
+        "precision": 0.6923076923076923,
+        "recall": 0.5625,
+        "f1-score": 0.6206896551724138,
+        "support": 16.0
+      },
+      "como_se_inscrever": {
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1-score": 0.8,
+        "support": 15.0
+      },
+      "como_sao_relatorios": {
+        "precision": 0.8235294117647058,
+        "recall": 0.875,
+        "f1-score": 0.8484848484848485,
+        "support": 16.0
+      },
+      "requisitos_minimos": {
+        "precision": 0.5625,
+        "recall": 0.6,
+        "f1-score": 0.5806451612903226,
+        "support": 15.0
+      },
+      "bolsas_e_valores": {
+        "precision": 0.8666666666666667,
+        "recall": 0.8666666666666667,
+        "f1-score": 0.8666666666666667,
+        "support": 15.0
+      },
+      "chitchat": {
+        "precision": 0.8285714285714286,
+        "recall": 0.9666666666666667,
+        "f1-score": 0.8923076923076924,
+        "support": 30.0
+      },
+      "fora_dominio": {
+        "precision": 0.9642857142857143,
+        "recall": 0.675,
+        "f1-score": 0.7941176470588235,
+        "support": 40.0
+      },
+      "micro avg": {
+        "precision": 0.8129496402877698,
+        "recall": 0.7687074829931972,
+        "f1-score": 0.7902097902097902,
+        "support": 147.0
+      },
+      "macro avg": {
+        "precision": 0.7911229876566012,
+        "recall": 0.7636904761904761,
+        "f1-score": 0.771844524425824,
+        "support": 147.0
+      },
+      "weighted avg": {
+        "precision": 0.8239419394131279,
+        "recall": 0.7687074829931972,
+        "f1-score": 0.7874177287718009,
+        "support": 147.0
+      }
+    },
+    "rotulos": [
+      "editais",
+      "como_se_inscrever",
+      "como_sao_relatorios",
+      "requisitos_minimos",
+      "bolsas_e_valores",
+      "chitchat",
+      "fora_dominio"
+    ],
+    "matriz_confusao": [
+      [
+        9,
+        1,
+        0,
+        2,
+        0,
+        0,
+        0,
+        4
+      ],
+      [
+        0,
+        12,
+        0,
+        2,
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        14,
+        2,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        2,
+        0,
+        9,
+        2,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1,
+        13,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        29,
+        1,
+        0
+      ],
+      [
+        3,
+        0,
+        2,
+        0,
+        0,
+        6,
+        27,
+        2
+      ]
+    ],
+    "rotulos_previstos": [
+      "editais",
+      "como_se_inscrever",
+      "como_sao_relatorios",
+      "requisitos_minimos",
+      "bolsas_e_valores",
+      "chitchat",
+      "fora_dominio",
+      "esclarecer"
+    ],
+    "taxa_falso_aceite": 0.07142857142857142,
+    "taxa_falsa_recusa": 0.0,
+    "taxa_esclarecimento": 0.05442176870748299,
+    "latencia_media_ms": 4.242446258518414
+  },
+  "arquivo_teste": "/content/starbucks-IA-2026-02-TP-Chatbot/dados/teste.csv"
+}

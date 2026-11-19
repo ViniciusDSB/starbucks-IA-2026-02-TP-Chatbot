@@ -75,11 +75,11 @@ texto,intencao,origem
 "Pode crer.",chitchat,llm
 "Verdade, também acho.",chitchat,llm
 "É complicado, né?",chitchat,llm
+"Nossa, isso é dificil",chitchat,llm
 "Pois é, fazer o quê?",chitchat,llm
 "Entendi, obrigado por explicar.",chitchat,llm
 "Fechado então!",chitchat,llm
 "Bom dia",chitchat,humano
-"skskkskks",chitchat,humano
 "Salve",chitchat,humano
 "Ao tudo certo?",chitchat,humano
 "vou me inscrever agora",chitchat,humano
@@ -87,8 +87,8 @@ texto,intencao,origem
 "eai, beleza?",chitchat,humano
 "Salve salve, familia",chitchat,humano
 "opa, tudo certo por ai?",chitchat,humano
-"como vc ta hj?",chitchat,humano
 "valeu pela força!",chitchat,humano
+"skskkskks",chitchat,humano
 "brigadão pela ajuda",chitchat,humano
 "show, era isso msm",chitchat,humano
 "kkkk boa essa",chitchat,humano
@@ -311,6 +311,7 @@ texto,intencao,origem
 "onde acho os editais de IC da ufms?",editais,humano
 "Tem algum site com os editais antigos de monitoria?",editais,humano
 "como vejo se saiu edital novo de iniciação cientifica?",editais,humano
+"onde a uf publica ediais?",editais,humano
 "Queria consultar o edital de monitoria do semestre passado",editais,humano
 "onde ficam os editais da prograd?",editais,humano
 "o edital fala quais disciplinas tem monitoria?",editais,humano
@@ -410,6 +411,7 @@ texto,intencao,origem
 "Como devo apresentar as atividades realizadas durante meu período como monitor?",como_sao_relatorios,llm
 "Como faço para encaminhar o relatório final de pesquisa depois de terminar o trabalho?",como_sao_relatorios,llm
 "como eu faço o relatorio final da IC?",como_sao_relatorios,humano
+"tem modelo pra relatorios?",como_sao_relatorios,humano
 "tem um modelo pronto de relatorio de monitoria?",como_sao_relatorios,humano
 "o que precisa colocar na introdução do relatorio?",como_sao_relatorios,humano
 "quantas paginas pode ter o relatorio de iniciação?",como_sao_relatorios,humano
@@ -512,6 +514,7 @@ texto,intencao,origem
 "quanto ta pagando a bolsa de IC?",bolsas_e_valores,humano
 "qual o valor da bolsa de monitoria hj?",bolsas_e_valores,humano
 "o PIVIC paga bolsa ou é voluntario?",bolsas_e_valores,humano
+"as boldas da uf sao grandes",bolsas_e_valores,humano
 "quando começa a cair o pagamento da bolsa?",bolsas_e_valores,humano
 "a bolsa do PIBIC e a da monitoria tem o mesmo valor?",bolsas_e_valores,humano
 "como funciona a assinatura do termo pra receber a bolsa?",bolsas_e_valores,humano
